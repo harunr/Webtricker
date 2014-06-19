@@ -1,0 +1,127 @@
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 767px) {
+	*{-webkit-box-sizing: border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
+	.header{padding:0;}
+	.main-inner-wrap {padding-bottom:575px;}
+	.home-slider{height: 230px;}
+	
+	.slider-text-wrap {margin-top: 45px;}
+	.slider-text-wrap h1 {font-size: 15px;line-height: 20px;color: #001B0D;}
+	.slider-text-wrap span {font-size: 17px;line-height:16px;text-align: left;}
+	.slider-text-wrap dfn {font-size: 15px;color: #001B0D;line-height: 20px;}
+		
+	.button a {max-width: 100px; margin-top: 17px; height: 29px;line-height: 29px;font-size: 15px;
+	}
+	.slider-img-wrap {float: right;max-width: 111px;margin:56px 0px 0px -50px;}
+	
+	.flex-prev{display:none !important}
+	.flex-next{display:none !important}
+	
+	#logo {width: 177px;margin-left: 10px;}
+	.phone-nav {background:#82A02E;cursor: pointer;display: block;overflow: hidden;padding: 5px;position: absolute;right:17px;top:32px;width:35px;z-index: 3333;}
+	.phone-nav div {float: left;display: block;width: 100%;height:2px;margin: 2px 0;line-height: 2px;background: #fff;}
+	
+	.main-nav{width:100%; display:none}
+	.main-nav ul{width:100%;}
+	.main-nav li {float: left; border-bottom:1px solid #E5E5E5; padding: 0px 1px; width: 100%;background:#82A02E; text-align:center;}
+	.main-nav li a{width:100%; margin-top:0;padding:12px 0 8px 0; line-height:18px}
+	.main-nav li a:hover{ color:#fff;-webkit-transition: all .1s linear;-moz-transition: all .1s linear;-o-transition: all .1s linear;transition: all .1s linear;}
+	.main-nav li.active a{margin-top:0;padding:15px 0 8px 0; line-height:18px}
+	
+	
+	
+	.contents-wrap {padding: 0px 10px;}
+	.overview-col {float:none; width:100%}
+	.overview-panel {float:none; clear: both; max-width:100%; margin: 0 auto;}
+	.overview-section > div.overview-panel:first-child {float:none;clear: both; width:100%; margin: 0 auto;}
+	.overview-section > div.overview-panel {float:none;clear: both; width:100%; margin: 0 auto; padding:20px 0 20px}
+	.service-col {float:none;clear: both; width:100%; margin: 0px auto; padding-top:0;}
+	/* Begin Service page */
+	.sub-nav {max-width: 100%;padding: 0 10px;}
+	.service-wrap {margin: 0 auto;max-width: 100%;padding: 0;}
+	
+	.service-item-wrap {float:none;clear:both;margin: 0 auto;width: 100%; padding: 205px 0 0; position:relative}
+	.text-wrap {float:left; width: 100%;}
+	.text-wrap h2 {float: left; font-size:25px;width: 100%;}
+	.text-wrap p{width:100%;margin-top: 0;
+    font-size: 15px}
+	.text-wrap li {font-size:15px}
+	.text-wrap dfn span {font-size: 16px;}
+	.button-wrap a { font-size:10px; line-height:33px;height: 35px;margin-right: 10px;width: 90px;}
+	
+	.img-thumbnail {width:100%; margin-top:27px;width:100%;float: right;position: absolute;left: 0px;top: 0px; z-index: 20;}
+	.img-thumbnail > div {float:none;clear:both;width: 250px;height: 154px;margin: 0 auto;}
+		
+	/* End Service page */
+	
+	
+	.contact-page { clear: both; margin:0px auto;max-width:100%;padding:0}
+	.maps{min-width:100%;width:100%;margin-top: 50px}
+	.contact-us-info {float:none;width: 100%;clear: both; margin: 0px auto;padding-top: 50px}
+	.contact-form-panel { clear: both;padding-top: 45px;width: 100%;margin: 0 auto;}
+	.text-area {margin-top:0;}
+	.text-area .text-field {width: 100%;margin-top: 10px;}
+	.contact-form-panel textarea {
+    float: left;
+    min-width: 100%;
+    max-width: 100%;}
+	.contact-form-panel .submit-button {width: 149px;line-height: 35px;}
+	.footer {clear: both;margin: 0 auto;overflow: hidden;padding: 10px 10px 30px;width: 100%;}
+	.footer-widget {float:left;min-height:192px;width:50%;margin: 0 auto;padding-right:0;}
+	.copyright-wrap{width:100%;}
+	.terms { float: left;width: auto;}
+	
+}
+
+/*		Wide Mobile Layout: 480px.
+------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.slider-text-wrap span {font-size: 23px; line-height:29px}
+	.slider-text-wrap dfn {font-size: 23px;line-height: 24px;}
+	.slider-img-wrap {max-width: 210px;}
+	.home-slider{height:280px;}
+}
+
+/*		Tablet/iPad Layout: 768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+*{-webkit-box-sizing: border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
+	#logo {width: 200px;}
+	.slider-img-wrap{width:45%; margin-top:76px}
+	.slider-text-wrap span {font-size: 32px;}
+	.slider-text-wrap dfn {font-size: 46px;}
+	.button a {max-width: 177px; font-size:22px; line-height:41px}
+	.flex-prev{display:none !important}
+	.flex-next{display:none !important}
+	.contents { clear: both;max-width: 100%; margin: 0px auto; padding: 0 10px;}
+	.maps {min-width: 420px;}
+	.contact-form-panel {max-width:581px}
+	.contact-form-panel .submit-button {width: 165px;}
+	.overview-section > div.overview-panel:first-child{margin-left:0;}
+	.overview-panel {float: left; padding: 20px 0px 40px;width: 239px;}
+	.overview-section > div.overview-panel {margin-left: 15px;}
+	.overview-col {width: 100%;}
+	.service-col {max-width: 187px; padding: 10px 7px 40px;}
+	.button-wrap a {width: 123px;}
+
+	.footer {width: 100%;}
+	.footer-widget {float: left;padding-right: 10px;width: 187px;}
+	.copyright-wrap {width: 100%;}
+}
+
+/*		Tablet/iPad Layout: 768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+
+}
+

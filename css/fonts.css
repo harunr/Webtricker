@@ -1,0 +1,94 @@
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/sourcesanspro-regular-webfont.eot');
+    src: url('../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_prolight';
+    src: url('../fonts/sourcesanspro-light-webfont.eot');
+    src: url('../fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-light-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-light-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/source-sans-pro.regular-webfont.eot');
+    src: url('../fonts/source-sans-pro.regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/source-sans-pro.regular-webfont.woff') format('woff'),
+         url('../fonts/source-sans-pro.regular-webfont.ttf') format('truetype'),
+         url('../fonts/source-sans-pro.regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('../fonts/source-sans-pro.bold-webfont.eot');
+    src: url('../fonts/source-sans-pro.bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/source-sans-pro.bold-webfont.woff') format('woff'),
+         url('../fonts/source-sans-pro.bold-webfont.ttf') format('truetype'),
+         url('../fonts/source-sans-pro.bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('../fonts/sourcesanspro-semibold-webfont.eot');
+    src: url('../fonts/sourcesanspro-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-semibold-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-semibold-webfont.svg#source_sans_prosemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kelson_sansregular';
+    src: url('../fonts/kelson_sans_regular-webfont.eot');
+    src: url('../fonts/kelson_sans_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kelson_sans_regular-webfont.woff') format('woff'),
+         url('../fonts/kelson_sans_regular-webfont.ttf') format('truetype'),
+         url('../fonts/kelson_sans_regular-webfont.svg#kelson_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'HelveticaNeue-CondensedBold';
+	src: url('../fonts/HelveticaNeue-CondensedBold.eot?') format('eot'), 
+	     url('../fonts/HelveticaNeue-CondensedBold.woff') format('woff'), 
+	     url('../fonts/HelveticaNeue-CondensedBold.ttf')  format('truetype'),
+	     url('../fonts/HelveticaNeue-CondensedBold.svg#HelveticaNeue-CondensedBold') format('svg');
+	font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeue.eot');
+    src: url('../fonts/HelveticaNeue.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaNeue.woff') format('woff'),
+         url('../fonts/HelveticaNeue.ttf') format('truetype'),
+         url('../fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
